@@ -1,6 +1,7 @@
 #include <cstdio>
 
 int static_func(){
+  // Static functions last the duration of a program
     static int x = 7;
     return ++x;
 }

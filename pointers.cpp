@@ -23,7 +23,7 @@ int main(){
     
     printf("\nThe value of a: %d \n", a);
     // To retrieve the value stored in the address a pointer points to, you need to dereference the pointer
-    // by using an asterik (*)
+    // by using an asterisk (*)
     printf("The value of ap: %d \n", *ap); // *ap resolves to the value of a
     
     a = 30;
